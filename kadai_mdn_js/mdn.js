@@ -3,7 +3,7 @@ const date = new Date();
 
 // 年月日
 const year = date.getFullYear();
-const month = date.getMonth + 1();
+const month = date.getMonth() + 1;
 const day = date.getDate();
 
 // 出力表記に合わせた変数
